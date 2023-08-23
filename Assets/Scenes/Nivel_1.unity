@@ -207,6 +207,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8414994 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6884849081391098239, guid: 00388cbe04bb3e748b868a2875b80f06, type: 3}
+  m_PrefabInstance: {fileID: 8756816860238253145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &56153330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3976,6 +3987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemigo
       objectReference: {fileID: 0}
+    - target: {fileID: 6603443940185951837, guid: a3f4910e33b8ec445bb02ff3918c565a, type: 3}
+      propertyPath: vida
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4033,6 +4048,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2168846583938910942, guid: 4ae621109e8d09f4e9ca63b065140a34, type: 3}
+      propertyPath: textoVidaPlayer
+      value: 
+      objectReference: {fileID: 8414994}
     - target: {fileID: 4090608301373962256, guid: 4ae621109e8d09f4e9ca63b065140a34, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4044,6 +4063,10 @@ PrefabInstance:
     - target: {fileID: 6308123109648940180, guid: 4ae621109e8d09f4e9ca63b065140a34, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573398127002061958, guid: 4ae621109e8d09f4e9ca63b065140a34, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4205,6 +4228,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3313207603955833199, guid: 00388cbe04bb3e748b868a2875b80f06, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758601363563653822, guid: 00388cbe04bb3e748b868a2875b80f06, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6122451611638407654, guid: 00388cbe04bb3e748b868a2875b80f06, type: 3}
